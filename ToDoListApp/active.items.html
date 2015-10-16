@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ToDoList</title>
+  <style>
+    body      { padding: 30px; font-family: sans-serif; }
+    div.table { display: table; }
+    form.tr   { display: table-row; }
+    span.td   { display: table-cell; padding: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Showing active items</h2>
+  <form action="/doaddnewitem" method="post">
+    <input name="itemtoadd" type="text" size="40" placeholder="What needs to be done?">
+    <button type="submit">Add</button>  
+  </form>
+  <div class="table">
+    <form action="/withitem/1" method="post" class="tr">
+      <span class="td">☐</span>
+      <span class="td">Buy milk</span>
+      <span class="td">
+        <a href="/showeditformfor/1">Edit</a>
+      </span>
+      <span class="td">
+        <button type="submit" name="buttontotoggledone">Mark As Done</button>
+      </span>
+    </form>
+    <form action="/withitem/3" method="post" class="tr">
+      <span class="td">☐</span>
+      <span class="td">Do homework</span>
+      <span class="td">
+        <a href="/showeditformfor/3">Edit</a>
+      </span>
+      <span class="td">
+        <button type="submit" name="buttontotoggledone">Mark As Done</button>
+      </span>
+    </form>
+  </div>
+  <br>
+  <form action="/buttonsatbottom" method="post">
+    <button type="submit" name="buttontoshowall">Show All</button>
+    <button type="submit" name="buttontoshowactive">Show Active</button>
+    <button type="submit" name="buttontoshowcompleted">Show Completed</button>
+    <button type="submit" name="buttontoclearcompleted">Clear Completed</button>
+  </form>
+</body>
+</html>
+

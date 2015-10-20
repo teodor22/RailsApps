@@ -1,0 +1,45 @@
+<html ng-app="AngularAdditionApp">
+<head>
+  <meta charset="UTF-8">
+  <title>AdditionApp</title>
+  <style>
+    body      { font-family: sans-serif; padding: 30px; }
+    img, form { display: inline; }
+    form      { margin-left: 20px }
+    a, p, button {
+      font-size: 25px;
+    }
+    .whiterthanusual {
+      opacity: 0.4;
+    }
+    input[type=text] {
+      font-size: 25px;
+    }
+  </style>
+  <script src="js/angular.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body ng-controller="AngularAdditionController"
+      ng-class="{'whiterthanusual': currentlyTalkingToTheServer}">
+<div ng-show="currentlyViewing === 'inputPage'">
+  <img ng-src="images/{{ currentlyTalkingToTheServer ? 'spinner.gif' : 'greendot.png' }}">
+  <form ng-submit="performAddition();">
+    <input type="text" ng-model="firstNumber"  size="10" placeholder="1st Number">
+    <input type="text" ng-model="secondNumber" size="10" placeholder="2nd Number">
+    <button>Add Them</button>
+  </form>
+</div>
+
+<div ng-show="currentlyViewing === 'resultPage'">
+  <p>The result is: {{ result }}</p>
+  <br>
+  <a href="" ng-click="backToInputPage();">Do another addition</a>
+</div>
+
+<div style="display: none;">
+  <img src="images/greendot.png">
+  <img src="images/spinner.gif">
+</div>
+</body>
+</html>
+

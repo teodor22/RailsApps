@@ -1,0 +1,81 @@
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:19:05 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"1", "secondnumber"=>"1", "addition"=>{"firstnumber"=>"1", "secondnumber"=>"1"}}
+Completed 500 Internal Server Error in 508ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `result' for #<AdditionController:0x007f3bc81df140>):
+  app/controllers/addition_controller.rb:8:in `performaddition'
+
+
+  Rendered /home/dserban/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/dserban/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/dserban/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (25.2ms)
+  Rendered /home/dserban/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.7ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:20:01 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"1", "secondnumber"=>"1", "addition"=>{"firstnumber"=>"1", "secondnumber"=>"1"}}
+Completed 200 OK in 501ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:21:08 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"1", "secondnumber"=>"1", "addition"=>{"firstnumber"=>"1", "secondnumber"=>"1"}}
+Completed 200 OK in 501ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:21:55 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"1", "secondnumber"=>"1", "addition"=>{"firstnumber"=>"1", "secondnumber"=>"1"}}
+Completed 200 OK in 501ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:22:06 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"1", "secondnumber"=>"1", "addition"=>{"firstnumber"=>"1", "secondnumber"=>"1"}}
+Completed 200 OK in 501ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:22:28 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"1", "secondnumber"=>"1", "addition"=>{"firstnumber"=>"1", "secondnumber"=>"1"}}
+Completed 200 OK in 501ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:22:41 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"1", "secondnumber"=>"1", "addition"=>{"firstnumber"=>"1", "secondnumber"=>"1"}}
+Completed 200 OK in 501ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:22:50 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"5", "secondnumber"=>"7", "addition"=>{"firstnumber"=>"5", "secondnumber"=>"7"}}
+Completed 200 OK in 501ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:24:35 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"5", "secondnumber"=>"7", "addition"=>{"firstnumber"=>"5", "secondnumber"=>"7"}}
+Completed 200 OK in 501ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:24:51 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"4", "secondnumber"=>"6", "addition"=>{"firstnumber"=>"4", "secondnumber"=>"6"}}
+Completed 200 OK in 501ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:25:11 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"5", "secondnumber"=>"7", "addition"=>{"firstnumber"=>"5", "secondnumber"=>"7"}}
+Completed 200 OK in 701ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/performaddition" for 127.0.0.1 at 2015-10-20 17:25:32 +0300
+Processing by AdditionController#performaddition as HTML
+  Parameters: {"firstnumber"=>"5", "secondnumber"=>"7", "addition"=>{"firstnumber"=>"5", "secondnumber"=>"7"}}
+Completed 200 OK in 1001ms (Views: 0.4ms | ActiveRecord: 0.0ms)

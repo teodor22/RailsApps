@@ -1,0 +1,9 @@
+dcba1c,http://rubyonrails.org/
+ee07d9,http://en.wikipedia.org/wiki/Ruby_on_Rails
+b247ac,https://github.com/rails/rails
+cf62a3,http://stackoverflow.com/
+e80cb3,http://fmi.unibuc.ro/
+af6de7,https://www.facebook.com/
+e4053f,https://twitter.com/
+
+

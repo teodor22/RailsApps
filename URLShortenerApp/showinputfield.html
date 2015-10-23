@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>URLShortener</title>
+  <style>
+    body { padding: 30px; font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <h1>URL Shortening Service</h1>
+  <form action="/performshortening" method="post">
+    <input type="text" name="longurl" size="40" placeholder="Long URL goes here">
+    <button type="submit">Shorten This URL</button>
+  </form>
+  <br>
+  <h3>In our database so far:</h3>
+  <table>
+    <tr>
+      <td><a href="http://localhost:3000/dcba1c" target="_blank">http://localhost:3000/dcba1c</a></td>
+      <td>redirects to http://rubyonrails.org/</td>
+    </tr>
+    <tr>
+      <td><a href="http://localhost:3000/ee07d9" target="_blank">http://localhost:3000/ee07d9</a></td>
+      <td>redirects to http://en.wikipedia.org/wiki/Ruby_on_Rails</td>
+    </tr>
+    <tr>
+      <td><a href="http://localhost:3000/b247ac" target="_blank">http://localhost:3000/b247ac</a></td>
+      <td>redirects to https://github.com/rails/rails</td>
+    </tr>
+    <tr>
+      <td><a href="http://localhost:3000/cf62a3" target="_blank">http://localhost:3000/cf62a3</a></td>
+      <td>redirects to http://stackoverflow.com/</td>
+    </tr>
+    <tr>
+      <td><a href="http://localhost:3000/e80cb3" target="_blank">http://localhost:3000/e80cb3</a></td>
+      <td>redirects to http://fmi.unibuc.ro/</td>
+    </tr>
+    <tr>
+      <td><a href="http://localhost:3000/af6de7" target="_blank">http://localhost:3000/af6de7</a></td>
+      <td>redirects to https://www.facebook.com/</td>
+    </tr>
+    <tr>
+      <td><a href="http://localhost:3000/e4053f" target="_blank">http://localhost:3000/e4053f</a></td>
+      <td>redirects to https://twitter.com/</td>
+    </tr>
+  </table>
+</body>
+</html>
+
